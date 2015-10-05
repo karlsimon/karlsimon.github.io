@@ -1,5 +1,9 @@
+*{
+	text-align: center;
+}
+
 h1 {
 color: #5a5a5a;
-font-size: 14px;
+font-size: 22px;
 font-weight: bold;
 }
