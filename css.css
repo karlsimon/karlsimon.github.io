@@ -8,11 +8,12 @@ body {
 
 p {
 	font-family: Helvetica;
+	color: #000000;
 }
 
 h1 {
 font-family: Helvetica;
-color: #5a5a5a;
+color: #000000;
 font-size: 22px;
 font-weight: bold;
 }
