@@ -10,22 +10,3 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0; }
-  
-*{
-	text-align: center;}
-
-body {
-	background-color: #ff4400;}
-
-h2 {
-	font-family: Helvetica;
-	color: #FFFFFF;
-	font-size: 80px;
-	padding-bottom: 80px;}
-
-h1 {
-font-family: Helvetica;
-color: #FFFFFF;
-font-size: 120px;
-font-weight: bold;
-padding-top: 80px;}
