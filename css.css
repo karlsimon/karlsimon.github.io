@@ -1,15 +1,18 @@
-#demo-header {
-    position: relative;
-    height: 110px;
-    background: #fff;
-    box-shadow: 0 0 2px 0 rgba(0,0,0,0.25);
-    z-index: 10000;
-}
+*{
+text-align: center;}
 
-#demo-main {
-    position: fixed;
-    left: 0;
-    top: 110px;
-    width: 100%;
-    height: calc(100% - 110px);
-}
+body {
+background-color: #ff4400;}
+
+h2 {
+font-family: Helvetica;
+color: #FFFFFF;
+font-size: 80px;
+padding-bottom: 80px;}
+
+h1 {
+font-family: Helvetica;
+color: #FFFFFF;
+font-size: 120px;
+font-weight: bold;
+padding-top: 80px;}
