@@ -23,6 +23,13 @@
   font-color: #FFFFFF;
   text-decoration: none;}
 
+  .imageContainer {
+    position: relative;
+    width: 25%;
+    padding-bottom: 25%;
+    float: left;
+    height: 0;
+}
 
 body {
 background-color: #0c0c0c;}
@@ -151,8 +158,8 @@ text-align:right;
 float:right;
 }
 
-.footer {
+footer {
   font-family:helvetica;
-  color: #444444;
+  color: #FFFFFF;
   font-size: 12px;
 }
