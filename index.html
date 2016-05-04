@@ -74,7 +74,7 @@
     <div class="row text-center">
         <div class="col-sm-10 col-sm-offset-1">
                 
-
+    
 
 
                 <!-- Signup -->
@@ -85,26 +85,36 @@
           
                     <!-- Main description -->
                     <div class="collapse in main-description"data-mercury="froala" data-content-name="main_description"><h1><span style="font-size: 48px;"><strong>1. Watch a movie</strong></span></h1><h1><span style="font-size: 48px;"><strong>2. See a product you love</strong></span></h1><h1><span style="font-size: 48px;"><strong>3. Go to Filmyr and buy it</strong></span><span style="font-size: 48px;"><strong style="color: inherit; line-height: 1.1; text-align: inherit; font-size: 42px;"></strong></span><span style="font-size: 48px;"><strong style="color: inherit; line-height: 1.1; text-align: inherit; font-size: 42px;"></strong></span><br></h1><p><img alt="Image title" class="fr-image-dropped fr-fin fr-dii" src="https://d2zc23renulrga.cloudfront.net/assets/58639/1cefvkh0txkzi0h3qmgl/key_white.png" style="width: 54px;">&nbsp;</p><p><span style="font-size: 18px;">GET EARLY ACCESS</span></p></div>
-                    <div class="form-inline">
-                        
-                            
-                            <div class="form-group text-left">
-                            
-                            
-                            
-                            
-                            <input type="email" class="required form-control input-lg text-left" id="email" placeholder="Your email" name="email" data-label-text="Email">
-                            
-                            
-                            
-                            </div><!-- /end form group -->
-                            
-                        
-                        
-                        <button type="submit" id="submit_button" class="btn btn-kol btn-lg " name="submit">STEP INSIDE</button>
-                        
-                        
-                    </div> <!-- /end normal, horizontal or inline form option -->
+  
+   <div id="contact-section">
+    <div class="col-md-8 wow fadeInDown" data-wow-delay="200ms">
+      <h3>LÄMNA ETT MEDDELANDE</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Skicka meddelande</button>
+      </form>
+    </div>
+  </div>
+</div>
+
                     
                     
             <div style="margin:0;padding:0;display:inline">
