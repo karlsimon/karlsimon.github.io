@@ -182,11 +182,11 @@
  img{
  	max-width:100%!important
  }
- h2,h3,p{
+ h,p{
  	orphans:3;
  	widows:3
  }
- h2,h3{
+ h{
  	page-break-after:avoid
  }
  .navbar{
@@ -1107,22 +1107,22 @@
  [role=button]{
  	cursor:pointer
  }
- .,.h2,.h3,.h4,.h5,.h6,,h2,h3,h4,h5,h6{
+ .,.h2,.h4,.h5,.h6,,h,h4,h5,h6{
  	font-family:inherit;
  	font-weight:500;
  	line-height:1.1;
  	color:inherit
  }
- . .small,. small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small, .small, small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
+ . .small,. small,.h2 .small,.h2 small .small small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small, .small, small,h2 .small,h2 smal .smal small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
  	font-weight:400;
  	line-height:1;
  	color:#777
  }
- .,.h2,.h3,,h2,h3{
+ .,.h2,,h{
  	margin-top:20px;
  	margin-bottom:10px
  }
- . .small,. small,.h2 .small,.h2 small,.h3 .small,.h3 small, .small, small,h2 .small,h2 small,h3 .small,h3 small{
+ . .small,. small,.h2 .small,.h2 small .small small, .small, small,h2 .small,h2 smal .smal small{
  	font-size:65%
  }
  .h4,.h5,.h6,h4,h5,h6{
@@ -1136,7 +1136,7 @@
  .h2,h2{
  	font-size:30px
  }
- .h3,h3{
+{
  	font-size:24px
  }
  .h4,h4{
@@ -4272,11 +4272,12 @@
  }
  .jumbotron{
  	padding-top:0px;
- 	padding-bottom:30px;
- 	margin-bottom:30px;
+ 	padding-bottom:0px;
+ 	height: 350px;
+ 	margin-bottom:0px;
  	color:inherit;
  }
- .jumbotron .,.jumbotron {
+ .jumbotron .jumbotron {
  	color:inherit
  }
  .jumbotron p{
@@ -4298,15 +4299,13 @@
  @media screen and (min-width:768px){
  	.jumbotron{
  	padding-top:20px;
- 	padding-bottom:48px
+ 	padding-bottom:0px
  }
  .container .jumbotron,.container-fluid .jumbotron{
  	padding-right:60px;
  	padding-left:60px
  }
- .jumbotron .,.jumbotron {
- 	font-size:63px
- }
+
 
 }
  .thumbnail{

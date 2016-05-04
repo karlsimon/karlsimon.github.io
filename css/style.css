@@ -343,6 +343,11 @@ video {
             top: 20%;
         }
 
+.wrapper {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .background-wrap {
@@ -379,8 +384,8 @@ video {
     top: 0;
     left: 0;
     position: absolute;
-    background-color: #000000;
-    opacity: 0.8;
+    background-color: #202100;
+    opacity: 0.9;
 }
         /* Response Section */
         #subscribe {
@@ -447,7 +452,6 @@ label {
     border: 2px solid #ccc;
     padding: 10px 20px;
     margin-top: 20px;
-    margin-left: 0;
     color: #aaa;
     font-size: 15px;
 }
